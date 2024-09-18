@@ -24,6 +24,9 @@
   color:blue;
   text-decoration: none;
 }
+.active{
+  color:blue;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
