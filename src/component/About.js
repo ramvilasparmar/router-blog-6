@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function About()
 {
@@ -6,8 +6,8 @@ function About()
         <div>
             <h1>About Page</h1>
             <ul>
-            <li><NavLink to='/user/ram'>Ram</NavLink></li>
-            <li><NavLink to='/user/piter'>Piter</NavLink></li>
+            <li><Link to='/user/ram' state={{name:'ram', age:20}}>Ram</Link></li>
+            <li><Link to='/user/piter'>Piter</Link></li>
             </ul>
         </div>
     )
